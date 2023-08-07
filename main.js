@@ -19,7 +19,7 @@ const glados = async () => {
     return [
       'e 恭喜签到成功',
       `${checkin.message}`,
-      `签到后目前可用天数为 ${Number(status.data.leftDays)} 天`,
+      `签到可用 ${Number(status.data.leftDays)} 天`,
     ]
   } catch (error) {
     return [
